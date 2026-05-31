@@ -58,8 +58,10 @@ Table of Contents:
 
     K. Optimal Portfolio and Efficient Frontier
        K1. Find the highest-Sharpe portfolio and visualize the efficient frontier
-"""
 #Import key libraries and Modules
+# Required installation before running this script from scratch:
+# pip install pandas numpy yfinance matplotlib seaborn plotly kaleido
+# Note: kaleido is needed for Plotly PNG export with fig.write_image(...).
 from matplotlib import ticker # This is needed to fix the ticker error in the distribution plot section
 import pandas as pd # For data manipulation and analysis
 import numpy as np # For numerical operations
