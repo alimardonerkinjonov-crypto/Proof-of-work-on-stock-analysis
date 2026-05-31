@@ -6,6 +6,10 @@
 # creates price, volume, trend, candlestick, and Bollinger Band charts.
 
 # Import key libraries and modules.
+# Required installation before running this script from scratch:
+# pip install yfinance matplotlib plotly kaleido
+#
+# Note: kaleido is needed for Plotly PNG export with fig.write_image(...).
 import datetime as dt
 import os
 import re
