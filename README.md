@@ -48,3 +48,7 @@ Both scripts are fully interactive — they prompt the user for company names, d
 | Portfolio Optimization | Monte Carlo Simulation, Efficient Frontier, Covariance Matrix |
 | Visualization | Plotly (Interactive), Matplotlib, Seaborn Pairplot |
 | Software Design | Modular Functions, Input Validation, Error Handling, File Export |
+
+<img width="3600" height="1800" alt="efficient_frontier_cloud" src="https://github.com/user-attachments/assets/b0d0c471-5115-4208-85e6-8f3bf65fbd55" />
+<img width="3600" height="1800" alt="google_stock_candlestick_chart_with_bollinger_bands" src="https://github.com/user-attachments/assets/71e472c2-d019-49ac-abbf-3bb43cd5fe56" />
+
