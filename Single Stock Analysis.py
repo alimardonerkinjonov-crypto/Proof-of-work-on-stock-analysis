@@ -259,8 +259,7 @@ def create_candlestick_chart(stock, exact_company_name):
         xaxis_rangeslider_visible=True,
     )
 
-    save_plotly_figure(fig, f"{safe_filename(exact_company_name)}_stock_candlestick_chart", save_png=False)
-
+    save_plotly_figure(fig, f"{safe_filename(exact_company_name)}_stock_candlestick_chart", save_png=True)
 
 def create_bollinger_bands_chart(stock, exact_company_name):
     """Create and save a candlestick chart with Bollinger Bands."""
@@ -310,9 +309,8 @@ def create_bollinger_bands_chart(stock, exact_company_name):
     save_plotly_figure(
         fig,
         f"{safe_filename(exact_company_name)}_stock_candlestick_chart_with_bollinger_bands",
-        save_png=False,
+        save_png=True,
     )
-
 
 # =============================================================================
 # MAIN SCRIPT
